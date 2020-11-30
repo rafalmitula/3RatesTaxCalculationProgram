@@ -24,20 +24,22 @@ This is a console apllication, however it should be started on at least JDK 12 a
 ### class Main{}
 
 At the beginning when the program runs, user receives a welcome message. User is also asked to choose options from 1 to 3. **Scanner scn** reads the input data from the user. 
-Next the variable **int userChoice** retrieves the number. The **switch(userChoice)** depends on the mentioned int userChoice number entered by the user.
+Next the variable **int userChoice** retrieves the number. The **switch(userChoice)** depends on the mentioned **int userChoice** number entered by the user.
 
-In this porgram the person who wants to calculate the tax can choose 3 options using the switch(userChoice) function:
+In this porgram the person who wants to calculate the tax can choose 3 options using the **switch(userChoice)** function:
 
 * **case 1->**	Calculate the tax from the gross price.
 * **case 2->**	Calculate the 23% tax from the net price.
 * **case 3->**	Terminate the program.
 
-The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the **scn.nextInt();**
+The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she will receive a message and he/she will have an opprtunity to do this again by the **scn.nextInt();**
 
-The **switch(userChoice)** is also located in the **try/catch** block to catch the exception if user inputs invalid data (becuase the default option protects only from the incorrect number input). If the user inputs the incorrect data he/she will receive a message and he/she will have a chance to do this again by the scn.next();.
-This porgram is also located in the while(shouldContinue) loop to provide the constant running.
-The boolean shouldContinue serves to continue the while(shouldContinue) loop and to terminates the application when user will choose the **case 3** in the **switch(userChoice)**.
-Above the loop aside from the mentioned Scanner scn and the boolean shouldContinue there is also the **Methods metody**.
+The **switch(userChoice)** is also located in the **try/catch** block to catch the exception if user inputs invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs the incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scn.next();**.
+
+This porgram is also located in the **while(shouldContinue)** loop to provide the constant running.
+The boolean shouldContinue serves to continue the **while(shouldContinue) loop and to terminates the application when user will choose the **case 3** in the **switch(userChoice)**.
+
+Above the loop aside from the mentioned **Scanner scn** and the **boolean shouldContinue** there is also the **Methods metody**.
 
 The **Methods metody** run new methods, which are located in the **Methods{}** class.
 
