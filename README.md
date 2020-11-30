@@ -121,7 +121,7 @@ In this method **Scanner scnB5** scans the input data from the user, calculates 
 
 The whole **calculteBrutto5()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteBrutto5()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
 
-The net amount methods(**calculateNetto23()**, **calculateNetto8()**, **calculateNetto5()**) are in progress.
+The net amount methods(**calculateNetto23()**, **calculateNetto8()**, **calculateNetto5()**) descriptions are in progress.
 
 
 
