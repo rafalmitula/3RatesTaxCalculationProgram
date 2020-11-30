@@ -34,9 +34,9 @@ In this porgram the person who wants to calculate the tax can choose 3 options u
 
 The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she will receive a message and he/she will have an opprtunity to do this again by the **scn.nextInt();**
 
-The **switch(userChoice)** is also located in the **try/catch** block to catch the exception if user inputs invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs the incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scn.next();**.
+The **switch(userChoice)** is also located in the **try/catch** block to catch the exception if the user inputs an invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs an incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scn.next();**.
 
-This porgram is also located in the **while(shouldContinue)** loop to provide the constant running.
+This porgram is also located in the **while(shouldContinue)** loop to provide a constant running.
 The boolean shouldContinue serves to continue the **while(shouldContinue) loop and to terminates the application when user will choose the **case 3** in the **switch(userChoice)**.
 
 Above the loop aside from the mentioned **Scanner scn** and the **boolean shouldContinue** there is also the **Methods metody**.
@@ -59,10 +59,10 @@ User who chooses the **case 1**(calculate the tax from the gross price) in the *
 The **switch(userChoiceBrutto)** has a default option to protect from the user’s invalid number input. 
 If user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the **scn2.nextInt()**;
 
-The **switch(userChoiceBrutto)** is also in try/catch block to catch the exception if user inputs invalid data (becuase the default option protects only from the incorrect number input). 
-If the user inputs the incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scn2.next();**.
+The **switch(userChoiceBrutto)** is also in the **try/catch** block to catch the exception if the user inputs an invalid data (becuase the default option protects only from the incorrect number input). 
+If the user inputs an incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scn2.next();**.
 
-This case is also located in the **while(shouldContinueBrutto)** loop to provide the constant running.
+This case is also located in the **while(shouldContinueBrutto)** loop to provide a constant running.
 
 The **boolean shouldContinueBrutto** serves to continue the **while(shouldContinueBrutto)** loop and to returning to the main menu when user will choose the **case 4** in the **switch(userChoiceBrutto)**.
 
@@ -78,12 +78,12 @@ User who chooses the **case 2**(calculate the tax from the net price) in the **s
 * **case 3->** Calculate the 5% tax from the net price.
 * **case 4->** Back to the main menu.
 
-The **switch(userChoiceNetto)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the scn3.nextInt();
+The **switch(userChoiceNetto)** has a **default** option to protect from the user’s invalid number input. If the user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the **scn3.nextInt();**.
 
-The **switch(userChoiceNetto)** is also in **try/catch block** to catch the exception if user inputs invalid data (becuase the default option protects only from the incorrect number input). 
-If the user inputs the incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scn3.next();**.
+The **switch(userChoiceNetto)** is also in **try/catch block** to catch the exception if the user inputs an invalid data (becuase the **default** option protects only from the incorrect number input). 
+If the user inputs an incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scn3.next();**.
 
-This case is also located in the **while(shouldContinueNetto)** loop to provide the constant running.
+This case is also located in the **while(shouldContinueNetto)** loop to provide a constant running.
 
 The boolean **shouldContinueNetto** serves to continuing the **while(shouldContinueBrutto)** loop and to returning the main menu when user chooses the **case 4** in the **switch(userChoiceNetto)**.
 
