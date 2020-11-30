@@ -89,7 +89,39 @@ The boolean **shouldContinueNetto** serves to continuing the **while(shouldConti
 
 ### class Methods{}
 
-Description in progress
+All methods(calculateBrutto23, calculateBrutto8, calculateBrutto5, calculateNetto23, calculateNetto8, calculateNetto5) in Methods{} class work in the same way. However below is a detailed description with the all variables.
+
+#### calculateBrutto23()
+
+The **calculateBrutto23()** method runs when user chooses **case 1** in the **switch(userChoice)** and **case 1** in the **switch(userChoiceBrutto)** in the **main(String[] args)** method.
+
+At the beginning when user calls this method, he/she receives a messege to input the gross price from which he/she wants to calculate the 23% tax. There is also a messege to separate decimals with a comma. 
+
+In this method **Scanner scnB23** scans the input data from the user, calculate and display: the net amount – **double amountNettoCb23**, the tax amount- **double amountVatCb23**, the gross amount - **double amountCb23**. What is more, in this method the mentioned doubles (**amountNettoCb23**, **amountVatCb23**, **amountCb23**) are rounded to 2 decimal places.
+
+The whole **calculteBrutto23()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteBrutto23()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
+
+#### calculateBrutto8()
+
+The **calculateBrutto8()** method runs when user chooses **case 1** in the **switch(userChoice)** and **case 2** in the **switch(userChoiceBrutto)** in the **main(String[] args)** method.
+
+At the beginning when user calls this method, he/she receives a messege to input the gross price from which he/she wants to calculate the 8% tax. There is also a messege to separate decimals with a comma. 
+
+In this method **Scanner scnB8** scans the input data from the user, calculate and display: the net amount – **double amountNettoCb8**, the tax amount- **double amountVatCb8**, the gross amount - **double amountCb8**. What is more, in this method the mentioned doubles (**amountNettoCb8**, **amountVatCb8**, **amountCb8**) are rounded to 2 decimal places.
+
+The whole **calculteBrutto8()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteBrutto8()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
+
+#### calculateBrutto5()
+
+The **calculateBrutto5()** method runs when user chooses **case 1** in the **switch(userChoice)** and **case 2** in the **switch(userChoiceBrutto)** in the **main(String[] args)** method.
+
+At the beginning when user calls this method, he/she receives a messege to input the gross price from which he/she wants to calculate the 5% tax. There is also a messege to separate decimals with a comma. 
+
+In this method **Scanner scnB5** scans the input data from the user, calculate and display: the net amount – **double amountNettoCb5**, the tax amount- **double amountVatCb5**, the gross amount - **double amountCb5**. What is more, in this method the mentioned doubles (**amountNettoCb5**, **amountVatCb5**, **amountCb5**) are rounded to 2 decimal places.
+
+The whole **calculteBrutto5()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteBrutto5()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
+
+
 
 ## Inspiration 
 
