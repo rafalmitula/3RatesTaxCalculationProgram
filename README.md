@@ -97,7 +97,8 @@ The **calculateBrutto23()** method runs when user chooses **case 1** in the **sw
 
 At the beginning when user calls this method, he/she receives a message to input the gross price from which he/she wants to calculate the 23% tax. There is also a message to separate decimals with a comma. 
 
-In this method **Scanner scnB23** scans the input data from the user, calculates and displays: the net amount – **double amountNettoCb23**, the tax amount- **double amountVatCb23**, the gross amount - **double amountCb23**. What is more, in this method the mentioned doubles (**amountNettoCb23**, **amountVatCb23**, **amountCb23**) are rounded to 2 decimal places.
+In this method **Scanner scnB23** scans the input data from the user. Next the variable double **amountCb23** retrieves the entered amount. Afterwards this amount is calculated on the tax amount by **double amountVatCb23** and on the net amount by double **amountNettoCb23**. Eventually, this method displays: the net amount, the gross amount and the tax amount. What is more, in this method the mentioned doubles (**amountNettoCb23**, **amountVatCb23**, **amountCb23**) are rounded to 2 decimal places.
+
 
 The whole **calculteBrutto23()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteBrutto23()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
 
@@ -107,7 +108,7 @@ The **calculateBrutto8()** method runs when user chooses **case 1** in the **swi
 
 At the beginning when user calls this method, he/she receives a message to input the gross price from which he/she wants to calculate the 8% tax. There is also a message to separate decimals with a comma. 
 
-In this method **Scanner scnB8** scans the input data from the user, calculates and displays: the net amount – **double amountNettoCb8**, the tax amount- **double amountVatCb8**, the gross amount - **double amountCb8**. What is more, in this method the mentioned doubles (**amountNettoCb8**, **amountVatCb8**, **amountCb8**) are rounded to 2 decimal places.
+In this method **Scanner scnB8** scans the input data from the user. Next the variable double **amountCb8** retrieves the entered amount. Afterwards this amount is calculated on the tax amount by **double amountVatCb23** and on the net amount by double **amountNettoCb23**. Eventually, this method displays: the net amount, the gross amount and the tax amount. What is more, in this method the mentioned doubles (**amountNettoCb8**, **amountVatCb8**, **amountCb8**) are rounded to 2 decimal places.
 
 The whole **calculteBrutto8()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteBrutto8()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
 
@@ -117,12 +118,41 @@ The **calculateBrutto5()** method runs when user chooses **case 1** in the **swi
 
 At the beginning when user calls this method, he/she receives a message to input the gross price from which he/she wants to calculate the 5% tax. There is also a message to separate decimals with a comma. 
 
-In this method **Scanner scnB5** scans the input data from the user, calculates and displays: the net amount – **double amountNettoCb5**, the tax amount- **double amountVatCb5**, the gross amount - **double amountCb5**. What is more, in this method the mentioned doubles (**amountNettoCb5**, **amountVatCb5**, **amountCb5**) are rounded to 2 decimal places.
+In this method **Scanner scnB5** scans the input data from the user. Next the variable double **amountCb5** retrieves the entered amount. Afterwards this amount is calculated on the tax amount by **double amountVatCb5** and on the net amount by double **amountNettoCb5**. Eventually, this method displays: the net amount, the gross amount and the tax amount. What is more, in this method the mentioned doubles (**amountNettoCb5**, **amountVatCb5**, **amountCb5**) are rounded to 2 decimal places.
 
 The whole **calculteBrutto5()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteBrutto5()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
 
-The net amount methods(**calculateNetto23()**, **calculateNetto8()**, **calculateNetto5()**) descriptions are in progress.
 
+
+#### calculateNetto23()
+
+The **calculateNetto23()** method runs when user chooses **case 2** in the **switch(userChoice)** and **case 1** in the **switch(userChoiceNetto)** in the **main(String[] args)** method.
+
+At the beginning when user calls this method, he/she receives a message to input the net price from which he/she wants to calculate the 5% tax. There is also a message to separate decimals with a comma. 
+
+In this method **Scanner scnN23** scans the input data from the user. Next the variable **double amountN23** retrieves the entered net amount. Afterwards this amount is calculated on the tax amount by **double amountVatN23** and on the gross amount by double **amountBruttoN23**. Eventually, this method displays: the net amount, the gross amount and the tax amount. What is more, in this method the mentioned doubles (**amountN23**, **amountVatN23**, **amountBruttoN23** ) are rounded to 2 decimal places.
+
+The whole **calculteNetto23()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteNetto23()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
+
+#### calculateNetto8()
+
+The **calculateNetto8()** method runs when user chooses **case 2** in the **switch(userChoice)** and **case 2** in the **switch(userChoiceNetto)** in the **main(String[] args)** method.
+
+At the beginning when user calls this method, he/she receives a message to input the net price from which he/she wants to calculate the 5% tax. There is also a message to separate decimals with a comma. 
+
+In this method **Scanner scnN8** scans the input data from the user. Next the variable **double amountN8** retrieves the entered net amount. Afterwards this amount is calculated on the tax amount by **double amountVatN23** and on the gross amount by double **amountBruttoN8**. Eventually, this method displays: the net amount, the gross amount and the tax amount. What is more, in this method the mentioned doubles (**amountN8**, **amountVatN8**, **amountBruttoN8** ) are rounded to 2 decimal places.
+
+The whole **calculteNetto8()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteNetto8()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
+
+#### calculateNetto5()
+
+The **calculateNetto5()** method runs when user chooses **case 2** in the **switch(userChoice)** and **case 3** in the **switch(userChoiceNetto)** in the **main(String[] args)** method.
+
+At the beginning when user calls this method, he/she receives a message to input the net price from which he/she wants to calculate the 5% tax. There is also a message to separate decimals with a comma. 
+
+In this method **Scanner scnN5** scans the input data from the user. Next the variable **double amountN5** retrieves the entered net amount. Afterwards this amount is calculated on the tax amount by **double amountVat5** and on the gross amount by double **amountBruttoN5**. Eventually, this method displays: the net amount, the gross amount and the tax amount. What is more, in this method the mentioned doubles (**amountN5**, **amountVatN5**, **amountBruttoN5** ) are rounded to 2 decimal places.
+
+The whole **calculteNetto5()** method is located in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculteNetto5()** method, so when he/she inputs wrong number or data, he/she will have opportunity to enter the data again.
 
 
 
