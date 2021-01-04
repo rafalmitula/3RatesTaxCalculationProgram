@@ -23,6 +23,8 @@ This is a console apllication, however it should be started on at least JDK 12 a
 ## Description
 ### class Main{}
 
+In the **Main class{}**, above the **main(String[] args)** method are located three project's arguments: the **Scanner scn**, **boolean shouldContinue** and the **Methods methods**. All mentioned arguments have a **private** modifier due to the encapsulation. Moreover these arguments have also a static modifier due to possibility of using them in this class.
+
 At the beginning when the program runs, user receives a welcome message. User is also asked to choose options from 1 to 3. **Scanner scn** reads the input data from the user. 
 Next the variable **int userChoice** retrieves the number. The **switch(userChoice)** depends on the mentioned **int userChoice** number entered by the user.
 
